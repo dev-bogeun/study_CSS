@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position 실습</title>
+    <style>
+        div.img {
+            width: 220px;
+            height: 315px;
+            background-image: url("http://koreaitacademy.com/renewal2021/img/tch/teacher007.png");
+            background-size: 100%;
+            background-position: center;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        div.img1 {
+            position: absolute;
+            top: 165px;
+            right: 690px;
+            z-index: 2;
+        }
+
+     
+
+    </style>
+</head>
+
+<body>
+    <div class="img"></div>
+    <div class="img1"><img src="엘사3.jpg"></div>
+    <div class="img2"><img src="올라프.jpg"></div>
+</body>
+
+</html>
